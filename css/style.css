@@ -96,3 +96,33 @@ body {
 .welcome-button-goo {
   margin-top: 15px;
 }
+.three-steps {
+  padding: 22px 20px 50px 20px;
+}
+.steps-main-title {
+  padding-bottom: 300px;
+  font-size: 50px;
+  font-family: "OpenSans-Bold";
+  color: #e7e7e7;
+}
+.steps-title {
+  margin-left: 27px;
+  font-size: 23px;
+  color: #e7e7e7;
+  position: relative;
+}
+.steps-num {
+  position: absolute;
+  font-size: 14px;
+  font-family: "OpenSans-Bold";
+  color: #000;
+}
+.steps-num::after {
+  left: 0;
+  top: 18px;
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 4px;
+  background-color: #5e42b0;
+}
