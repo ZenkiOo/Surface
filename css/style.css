@@ -97,25 +97,46 @@ body {
   margin-top: 15px;
 }
 .three-steps {
-  padding: 22px 20px 50px 20px;
+  padding: 8px 0 0 0;
+}
+.three-steps-one {
+  background-image: url(..//img/footballer_192.png);
+  background-repeat: no-repeat;
+  background-position: center 80px;
+}
+.three-steps-two {
+  background-image: url(..//img/basketballer_302.png);
+  background-repeat: no-repeat;
+  background-position: center 80px;
 }
 .steps-main-title {
-  padding-bottom: 300px;
+  padding: 0 0 255px 20px;
   font-size: 50px;
   font-family: "OpenSans-Bold";
   color: #e7e7e7;
 }
+.step {
+  padding: 51px 20px 52px 20px;
+  position: relative;
+}
 .steps-title {
-  margin-left: 27px;
+  margin-left: 25px;
+  padding-bottom: 19px;
+  font-family: "OpenSans-Bold";
   font-size: 23px;
+  letter-spacing: 1px;
   color: #e7e7e7;
   position: relative;
 }
 .steps-num {
   position: absolute;
+  top: 55px;
   font-size: 14px;
   font-family: "OpenSans-Bold";
   color: #000;
+}
+.steps-num-purple {
+  color: #8765dd;
 }
 .steps-num::after {
   left: 0;
@@ -125,4 +146,17 @@ body {
   width: 15px;
   height: 4px;
   background-color: #5e42b0;
+}
+.steps-num-white::after {
+  background-color: #fff;
+}
+.steps-text {
+  line-height: 18px;
+  letter-spacing: 0.01em;
+}
+.step-third {
+  background-color: #5e42b0;
+}
+.step-third-two {
+  background-color: #090c35;
 }
