@@ -160,3 +160,56 @@ body {
 .step-third-two {
   background-color: #090c35;
 }
+.use-block {
+  display: flex;
+  flex-direction: column;
+}
+.use-img {
+  max-width: 100%;
+}
+.use-img-current {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.use-img-current img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.use-content {
+  position: relative;
+  padding-top: 25px;
+  padding-bottom: 80px;
+}
+.use-num {
+  position: absolute;
+  top: -59px;
+  left: 20px;
+  padding: 19px 26px 28px 26px;
+  display: block;
+  font-family: "OpenSans-Bold";
+  color: #fff;
+  background-color: #5e42b0;
+}
+.use-num::before {
+  content: "";
+  position: absolute;
+  top: 40px;
+  width: 17px;
+  height: 4px;
+  border-radius: 2px;
+  background-color: #8f7bc8;
+}
+.use-title {
+  padding: 0 0 11px 20px;
+  font-family: "OpenSans-Bold";
+  font-size: 28px;
+  letter-spacing: 0.05em;
+  color: #e7e7e7;
+}
+.use-text {
+  padding: 0 20px 0 20px;
+  line-height: 20px;
+  letter-spacing: 0.05em;
+}
