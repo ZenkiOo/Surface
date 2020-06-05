@@ -80,6 +80,10 @@ body {
   border-radius: 18px;
   background-color: #5e42b0;
 }
+.apple-logo {
+  width: 20px;
+  color: #fff;
+}
 .welcome-button-text {
   width: 105px;
   margin: auto;
@@ -212,4 +216,63 @@ body {
   padding: 0 20px 0 20px;
   line-height: 20px;
   letter-spacing: 0.05em;
+}
+.footer {
+  padding: 220px 20px 20px 20px;
+  min-height: 100vh;
+  background-image: url(../img/game_767.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.footer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #040035;
+  opacity: 0.9;
+}
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 2;
+}
+.footer-title {
+  text-align: center;
+}
+.footer-title::before {
+  content: "";
+  position: absolute;
+  top: -130px;
+  margin-left: -36px;
+  width: 72px;
+  height: 74px;
+  border-radius: 13px;
+  background-color: #7151ce;
+  background-image: url(../svg/surface_logo.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 58px;
+}
+.download {
+  font-family: "OpenSans-Bold";
+  letter-spacing: 0.03em;
+  font-size: 32px;
+  color: #fff;
+}
+.you-can {
+  letter-spacing: 0.05em;
+  font-size: 14px;
+  color: #9b8ec1;
+}
+.footer-buttons {
+  margin-top: 70px;
+}
+.logo-footer {
+  padding-top: 83px;
 }
