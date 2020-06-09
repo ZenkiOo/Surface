@@ -50,7 +50,7 @@ body {
   z-index: 2;
 }
 .logo-main {
-  width: 47%;
+  width: 124px;
   align-self: center;
 }
 .welcome-rows {
@@ -81,10 +81,6 @@ body {
   font-size: 8px;
   border-radius: 18px;
   background-color: #5e42b0;
-}
-.apple-logo {
-  width: 20px;
-  color: #fff;
 }
 .welcome-button-text {
   width: 110px;
@@ -118,19 +114,8 @@ body {
 .google-row {
   display: block;
 }
-/* .apple-row-one,
-.google-row-one {
-  font-family: "OpenSans-Regular";
-} */
-/* .welcome-button-app {
-  background-image: url(../svg/apple_logo_black.svg);
-  background-repeat: no-repeat;
-  background-position: calc(center - 20px) center;
-
-} */
 .welcome-button-goo {
   margin-top: 15px;
-  /* background-image: url(../svg/google-play.svg); */
 }
 .three-steps {
   padding: 8px 0 0 0;

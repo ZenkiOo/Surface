@@ -1,0 +1,95 @@
+@media (min-width: 768px) {
+  .header {
+    padding: 39px 58px 92px 58px;
+  }
+  .logo-main {
+    width: 205px;
+  }
+  .welcome-rows {
+    margin-top: 160px;
+    padding-left: 28px;
+  }
+  .welcome-row {
+    font-size: 64px;
+    letter-spacing: 3px;
+  }
+  .welcome-row-two {
+    margin-top: 0;
+    width: 517px;
+    line-height: 74px;
+  }
+  .welcome-buttons {
+    margin-top: 300px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .welcome-button {
+    width: 310px;
+    height: 77px;
+    border-radius: 39px;
+    font-size: 14px;
+  }
+  .welcome-button-text {
+    width: 182px;
+    padding-left: 40px;
+  }
+  .apple-row-one,
+  .google-row-one {
+    font-weight: normal;
+  }
+  .google-button {
+    width: 182px;
+    padding-left: 63px;
+  }
+  .welcome-button-goo {
+    margin-top: 0;
+  }
+  .apple-button::before {
+    top: -4px;
+    left: -25px;
+    width: 45px;
+    height: 45px;
+  }
+  .google-button::before {
+    top: 0;
+    left: -9px;
+    width: 42px;
+    height: 42px;
+  }
+  .three-steps {
+    padding: 58px 0 0 0;
+  }
+  .three-steps-one {
+    background-image: url(../img/footballer_497.png);
+    background-position: -160px 90px;
+  }
+  .step {
+    padding: 29px 33px 37px 291px;
+  }
+  .step-left {
+    padding: 29px 320px 37px 33px;
+  }
+  .steps-main-title {
+    padding: 0 33px 0px 291px;
+    font-size: 80px;
+  }
+  .steps-title {
+    font-size: 32px;
+    padding-left: 5px;
+    letter-spacing: 0.05em;
+  }
+  .steps-num {
+    top: 32px;
+    font-size: 18px;
+  }
+  .steps-num::after {
+    width: 20px;
+    height: 5px;
+    top: 24px;
+    left: 1px;
+  }
+  .steps-text {
+    line-height: 26px;
+    letter-spacing: 0.05em;
+  }
+}
