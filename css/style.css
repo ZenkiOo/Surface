@@ -121,7 +121,7 @@ body {
   position: relative;
 }
 .three-steps-container {
-  /* padding: 8px 0 0 0; */
+  padding: 8px 0 0 0;
 }
 .three-steps-one::before {
   content: "";

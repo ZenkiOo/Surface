@@ -6,7 +6,21 @@
     <meta name="description" content="College sports" />
     <meta name="author" content="ZenkiOo" />
     <link rel="stylesheet" href="css/style.css" />
-    <link media="screen and (min-width:768px)" rel="stylesheet" href="css/media.css" />
+    <link
+      media="screen and (min-width:641px)"
+      rel="stylesheet"
+      href="css/laptop.css"
+    />
+    <link
+      media="screen and (min-width:961px)"
+      rel="stylesheet"
+      href="css/desktop.css"
+    />
+    <link
+      media="screen and (min-width:1921px)"
+      rel="stylesheet"
+      href="css/wide-desktop.css"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
 
@@ -69,62 +83,65 @@
       <main class="main">
         <section class="three-steps">
           <div class="three-steps-container three-steps-one">
-          <h3 class="steps-main-title upp-text">athlets</h3>
-          <div class="step step-first">
-            <span class="steps-num">01</span>
-            <h4 class="steps-title upp-text">connection</h4>
-            <p class="steps-text">
-              Connect with coaches to directly, you can ping coaches to view
-              profile.
-            </p>
+            <h3 class="steps-main-title upp-text">athlets</h3>
+            <div class="step step-first">
+              <span class="steps-num">01</span>
+              <h4 class="steps-title upp-text">connection</h4>
+              <p class="steps-text">
+                Connect with coaches to directly, you can ping coaches to view
+                profile.
+              </p>
+            </div>
+            <div class="step step-second">
+              <span class="steps-num">02</span>
+              <h4 class="steps-title upp-text">collaboration</h4>
+              <p class="steps-text">
+                Work with other student athletes to increase visability. When
+                you share and like other players videos it will increase your
+                visability as a player. This is the team work aspect to Surface
+                1.
+              </p>
+            </div>
+            <div class="step step-third">
+              <span class="steps-num steps-num-white">03</span>
+              <h4 class="steps-title upp-text">growth</h4>
+              <p class="steps-text">
+                Resourses and tools for you to get better as a student Athelte.
+                Access to training classes, tutor sessions, etc.
+              </p>
+            </div>
           </div>
-          <div class="step step-second">
-            <span class="steps-num">02</span>
-            <h4 class="steps-title upp-text">collaboration</h4>
-            <p class="steps-text">
-              Work with other student athletes to increase visability. When you
-              share and like other players videos it will increase your
-              visability as a player. This is the team work aspect to Surface 1.
-            </p>
-          </div>
-          <div class="step step-third">
-            <span class="steps-num steps-num-white">03</span>
-            <h4 class="steps-title upp-text">growth</h4>
-            <p class="steps-text">
-              Resourses and tools for you to get better as a student Athelte.
-              Access to training classes, tutor sessions, etc.
-            </p>
-          </div>
-        </div>
         </section>
 
         <section class="three-steps three-steps-two">
           <div class="three-steps-container three-steps-two">
-          <h3 class="steps-main-title steps-main-title-two upp-text">players</h3>
-          <div class="step step-left step-first">
-            <span class="steps-num">01</span>
-            <h4 class="steps-title upp-text">connection</h4>
-            <p class="steps-text">
-              Connect with talented athlete directly, you can watch their skills
-              through video showreels directly from Surface 1.
-            </p>
+            <h3 class="steps-main-title steps-main-title-two upp-text">
+              players
+            </h3>
+            <div class="step step-left step-first">
+              <span class="steps-num">01</span>
+              <h4 class="steps-title upp-text">connection</h4>
+              <p class="steps-text">
+                Connect with talented athlete directly, you can watch their
+                skills through video showreels directly from Surface 1.
+              </p>
+            </div>
+            <div class="step step-left step-second">
+              <span class="steps-num">02</span>
+              <h4 class="steps-title upp-text">collaboration</h4>
+              <p class="steps-text">
+                Work with recruiter to increase your chances of finding talented
+                athlete
+              </p>
+            </div>
+            <div class="step step-left step-third-two">
+              <span class="steps-num steps-num-white steps-num-purple">03</span>
+              <h4 class="steps-title upp-text white-text">growth</h4>
+              <p class="steps-text white-text">
+                Save your time, recruit proper athlets for your team
+              </p>
+            </div>
           </div>
-          <div class="step step-left step-second">
-            <span class="steps-num">02</span>
-            <h4 class="steps-title upp-text">collaboration</h4>
-            <p class="steps-text">
-              Work with recruiter to increase your chances of finding talented
-              athlete
-            </p>
-          </div>
-          <div class="step step-left step-third-two">
-            <span class="steps-num steps-num-white steps-num-purple">03</span>
-            <h4 class="steps-title upp-text white-text">growth</h4>
-            <p class="steps-text white-text">
-              Save your time, recruit proper athlets for your team
-            </p>
-          </div>
-        </div>
         </section>
 
         <section class="use">
@@ -133,11 +150,15 @@
               <picture class="use-img-current">
                 <source
                   srcset="img/be-active_640.jpg"
-                  media="(max-width: 767px)"
+                  media="(max-width: 640px)"
                 />
                 <source
                   srcset="img/be-active_960.jpg"
-                  media="(min-width: 768px)"
+                  media="(min-width: 641px) and (max-width: 960px)"
+                />
+                <source
+                  srcset="img/be-active_1024.jpg"
+                  media="(min-width: 961px)"
                 />
                 <img src="img/be-active_640.jpg" alt="Posting video" />
               </picture>
@@ -157,20 +178,28 @@
               <picture class="use-img-current">
                 <source
                   srcset="img/find-contact_640.jpg"
-                  media="(max-width: 767px)"
+                  media="(max-width: 640px)"
                 />
                 <source
                   srcset="img/find-contact_960.jpg"
-                  media="(min-width: 768px)"
+                  media="(min-width: 641px) and (max-width: 960px)"
                 />
-                <img src="img/find-contact_640.jpg" alt="Looking for contacts" />
+                <source
+                  srcset="img/find-contact_1024.jpg"
+                  media="(min-width: 961px)"
+                />
+                <img
+                  src="img/find-contact_640.jpg"
+                  alt="Looking for contacts"
+                />
               </picture>
             </div>
             <div class="use-content">
               <span class="use-num">02</span>
               <h3 class="use-title upp-text">find contact</h3>
               <p class="use-text">
-                Contact others to find right coach or athlete you are looking for.
+                Contact others to find right coach or athlete you are looking
+                for.
               </p>
             </div>
           </div>
@@ -180,11 +209,15 @@
               <picture class="use-img-current">
                 <source
                   srcset="img/work-it_640.jpg"
-                  media="(max-width: 767px)"
+                  media="(max-width: 640px)"
                 />
                 <source
                   srcset="img/work-it_960.jpg"
-                  media="(min-width: 768px)"
+                  media="(min-width: 641px) and (max-width: 960px)"
+                />
+                <source
+                  srcset="img/work-it_1024.jpg"
+                  media="(min-width: 961px)"
                 />
                 <img src="img/work-it_640.jpg" alt="Football team" />
               </picture>
@@ -193,13 +226,14 @@
               <span class="use-num">03</span>
               <h3 class="use-title upp-text">work it</h3>
               <p class="use-text">
-                Enjoy being a student athlete, the recruiting process can be overwhelming, we want to make this enjoyable experience.
+                Enjoy being a student athlete, the recruiting process can be
+                overwhelming, we want to make this enjoyable experience.
               </p>
             </div>
           </div>
         </section>
       </main>
-      
+
       <footer class="footer">
         <div class="footer-content">
           <div class="footer-title">
