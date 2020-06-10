@@ -56,23 +56,31 @@
     width: 42px;
     height: 42px;
   }
-  .three-steps {
-    padding: 58px 0 0 0;
+  .three-steps-container {
+    padding: 55px 0 0 0;
   }
-  .three-steps-one {
+  .three-steps-one::before {
     background-image: url(../img/footballer_497.png);
     background-position: -160px 90px;
   }
-  .step {
-    padding: 29px 33px 37px 291px;
+  .three-steps-two::before {
+    background-image: url(../img/basketballer_436.png);
+    background-position: 100% 37px;
   }
-  .step-left {
-    padding: 29px 320px 37px 33px;
+  .step {
+    padding: 30px 33px 37px 291px;
   }
   .steps-main-title {
     padding: 0 33px 0px 291px;
     font-size: 80px;
   }
+  .step-left {
+    padding: 29px 320px 37px 33px;
+  }
+  .steps-main-title-two {
+    padding: 0 33px 0 33px;
+  }
+
   .steps-title {
     font-size: 32px;
     padding-left: 5px;
@@ -91,5 +99,58 @@
   .steps-text {
     line-height: 26px;
     letter-spacing: 0.05em;
+  }
+  .use-content {
+    padding: 65px 0 98px 0;
+  }
+  .use-num {
+    top: -80px;
+    left: 32px;
+    padding: 35px 45px 48px 45px;
+    font-size: 24px;
+  }
+  .use-num::before {
+    top: 70px;
+    width: 27px;
+    height: 5px;
+    border-radius: 3px;
+  }
+  .use-title {
+    padding: 0 33px 10px 27px;
+    font-size: 80px;
+    letter-spacing: 0;
+  }
+  .use-text {
+    padding: 0 33px 0 33px;
+    font-size: 24px;
+    line-height: 27px;
+    letter-spacing: 0.06em;
+  }
+  .footer {
+    padding: 317px 0 20px 0;
+  }
+  .footer-title::before {
+    top: -191px;
+    margin-left: -66px;
+    width: 132px;
+    height: 137px;
+    border-radius: 32px;
+    background-size: 105px;
+  }
+  .download {
+    letter-spacing: 0.05em;
+    font-size: 80px;
+  }
+  .you-can {
+    letter-spacing: 0;
+    font-size: 36px;
+    line-height: 37px;
+  }
+  .footer-buttons {
+    margin-top: 285px;
+    padding: 0 63px;
+  }
+  .logo-footer {
+    padding-top: 55px;
   }
 }

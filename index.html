@@ -67,7 +67,8 @@
         </div>
       </header>
       <main class="main">
-        <section class="three-steps three-steps-one">
+        <section class="three-steps">
+          <div class="three-steps-container three-steps-one">
           <h3 class="steps-main-title upp-text">athlets</h3>
           <div class="step step-first">
             <span class="steps-num">01</span>
@@ -94,10 +95,12 @@
               Access to training classes, tutor sessions, etc.
             </p>
           </div>
+        </div>
         </section>
 
         <section class="three-steps three-steps-two">
-          <h3 class="steps-main-title upp-text">players</h3>
+          <div class="three-steps-container three-steps-two">
+          <h3 class="steps-main-title steps-main-title-two upp-text">players</h3>
           <div class="step step-left step-first">
             <span class="steps-num">01</span>
             <h4 class="steps-title upp-text">connection</h4>
@@ -121,6 +124,7 @@
               Save your time, recruit proper athlets for your team
             </p>
           </div>
+        </div>
         </section>
 
         <section class="use">
@@ -129,7 +133,11 @@
               <picture class="use-img-current">
                 <source
                   srcset="img/be-active_640.jpg"
-                  media="(min-width: 300px)"
+                  media="(max-width: 767px)"
+                />
+                <source
+                  srcset="img/be-active_960.jpg"
+                  media="(min-width: 768px)"
                 />
                 <img src="img/be-active_640.jpg" alt="Posting video" />
               </picture>
@@ -149,7 +157,11 @@
               <picture class="use-img-current">
                 <source
                   srcset="img/find-contact_640.jpg"
-                  media="(min-width: 300px)"
+                  media="(max-width: 767px)"
+                />
+                <source
+                  srcset="img/find-contact_960.jpg"
+                  media="(min-width: 768px)"
                 />
                 <img src="img/find-contact_640.jpg" alt="Looking for contacts" />
               </picture>
@@ -168,7 +180,11 @@
               <picture class="use-img-current">
                 <source
                   srcset="img/work-it_640.jpg"
-                  media="(min-width: 300px)"
+                  media="(max-width: 767px)"
+                />
+                <source
+                  srcset="img/work-it_960.jpg"
+                  media="(min-width: 768px)"
                 />
                 <img src="img/work-it_640.jpg" alt="Football team" />
               </picture>
@@ -183,6 +199,7 @@
           </div>
         </section>
       </main>
+      
       <footer class="footer">
         <div class="footer-content">
           <div class="footer-title">
