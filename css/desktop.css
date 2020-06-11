@@ -1,12 +1,142 @@
-.welcome-row {
-    font-size: 90px;
+.header {
+  padding: 44px 20px 108px 20px;
 }
+.logo-main {
+  width: 190px;
+}
+.welcome-rows {
+  margin: 265px auto 0 auto;
+  width: 1605px;
+}
+.welcome-row {
+  font-size: 90px;
+  letter-spacing: 4.3px;
+}
+.welcome-row-two {
+  margin-top: 0;
+  width: 1125px;
+  line-height: 67px;
+}
+.welcome-buttons {
+  margin: 225px auto 0 auto;
+  width: 675px;
+}
+.welcome-button {
+  width: 310px;
+}
+.steps-main-title {
+  padding: 0 33px 0px 1001px;
+  font-size: 80px;
+}
+.steps-main-title-two {
+  padding: 0 970px 0 181px;
+}
+.three-steps-container {
+  padding: 95px 0 0 0;
+}
+.three-steps-one::before {
+  background-image: url(../img/footballer_566.png);
+  background-position: 385px 30px;
+  bottom: -60px;
+}
+.three-steps-two::before {
+  background-image: url(../img/basketballer_991.png);
+  background-position: 800px 25px;
+  bottom: -30px;
+}
+.step {
+  padding: 65px 179px 40px 1001px;
+}
+.step-left {
+  padding: 65px 970px 40px 181px;
+}
+.step-second {
+  padding-bottom: 55px;
+}
+.step-third {
+  padding: 50px 179px 53px 1001px;
+}
+
 .steps-title {
-    font-size: 36px;
+  padding-bottom: 15px;
+  font-size: 36px;
 }
 .steps-text {
-    font-size: 20px;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: 0.05em;
+}
+
+.use-one,
+.use-three {
+  flex-direction: row;
+}
+.use-two {
+  flex-direction: row-reverse;
+}
+.use-subblock {
+  width: 50%;
+}
+.use-two-content-container {
+  display: flex;
+  justify-content: flex-end;
+}
+.use-content {
+  max-width: 900px;
+}
+.use-title {
+  padding: 170px 33px 10px 127px;
+  font-size: 80px;
+  letter-spacing: 0;
+}
+.use-text {
+  padding: 70px 33px 0 127px;
+  font-size: 24px;
+  line-height: 27px;
+  letter-spacing: 0.06em;
+}
+.use-num {
+  padding: 51px 70px 70px 70px;
+  font-size: 24px;
+}
+.use-num::before {
+  top: 86px;
+  width: 26px;
+  left: 71px;
+  height: 5px;
+  border-radius: 3px;
+}
+.use-num-odd {
+  top: 210px;
+  left: -85px;
+}
+.use-num-even {
+  top: 210px;
+  right: -85px;
+  left: auto;
+}
+.footer {
+  padding: 222px 0 20px 0;
+}
+.download {
+  margin-left: 165px;
 }
 .you-can {
-    font-size: 30px;
+  font-size: 30px;
+  line-height: 23px;
+}
+.footer-title::before {
+  top: 9px;
+  margin-left: -436px;
+  width: 132px;
+  height: 137px;
+  border-radius: 32px;
+  background-size: 105px;
+}
+.footer-buttons {
+  margin-top: 157px;
+  padding: 0;
+}
+.logo-footer {
+  padding-top: 263px;
 }
