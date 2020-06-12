@@ -40,7 +40,7 @@ body {
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: #040035;
+  background-color: #0a0e34;
   opacity: 0.9;
 }
 .header-content {
@@ -117,54 +117,46 @@ body {
 .welcome-button-goo {
   margin-top: 15px;
 }
-.three-steps {
+.steps,
+.steps-2 {
   position: relative;
 }
-.three-steps-container {
-  padding: 8px 0 0 0;
-}
-.three-steps-one::before {
+.steps::before,
+.steps-2::before {
   content: "";
   position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
+  background-repeat: no-repeat;
+  z-index: 3;
+}
+.steps::before {
   background-image: url(../img/footballer_192.png);
-  background-repeat: no-repeat;
   background-position: center 80px;
-  z-index: 3;
 }
-.three-steps-two::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
+.steps-2::before {
   background-image: url(../img/basketballer_302.png);
-  background-repeat: no-repeat;
   background-position: center 80px;
-  z-index: 3;
+}
+.item {
+  padding-right: 20px;
+  padding-left: 20px;
 }
 .steps-main-title {
-  padding: 0 0 255px 20px;
+  padding-top: 8px;
+  padding-bottom: 255px;
+}
+.steps-main-title-h3 {
   font-size: 50px;
   font-weight: bold;
   color: #e7e7e7;
 }
-.step {
-  padding: 51px 20px 52px 20px;
+.item-numbered {
   position: relative;
-}
-.steps-title {
-  margin-left: 25px;
-  padding-bottom: 19px;
-  font-weight: bold;
-  font-size: 23px;
-  letter-spacing: 1px;
-  color: #e7e7e7;
-  position: relative;
+  padding-top: 51px;
+  padding-bottom: 52px;
 }
 .steps-num {
   position: absolute;
@@ -189,26 +181,35 @@ body {
 .steps-num-white::after {
   background-color: #fff;
 }
+.steps-title {
+  margin-left: 29px;
+  padding-bottom: 19px;
+  font-weight: bold;
+  font-size: 23px;
+  letter-spacing: 1px;
+  color: #e7e7e7;
+  position: relative;
+}
 .steps-text {
   line-height: 18px;
   letter-spacing: 0.01em;
 }
-.white-text {
+.steps-text-white {
   color: #c1c1c1;
 }
-.step-third {
+.steps-item-2 {
+  background-color: #f6f4fa;
+}
+.steps-item-3 {
   background-color: #5e42b0;
 }
-.step-third-two {
+.steps-item-3-2 {
   background-color: #090c35;
 }
 .use-block {
   display: flex;
   flex-direction: column;
 }
-/* .use-img {
-  max-width: 100%;
-} */
 .use-img-current {
   display: block;
   width: 100%;
@@ -271,7 +272,7 @@ body {
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: #040035;
+  background-color: #0a0e34;
   opacity: 0.9;
 }
 .footer-content {

@@ -1,5 +1,6 @@
 .header {
   padding: 39px 58px 92px 58px;
+  background-image: url(../img/football_1280.jpg);
 }
 .logo-main {
   width: 205px;
@@ -23,7 +24,6 @@
   justify-content: space-between;
 }
 .welcome-button {
-  /* width: 310px; */
   width: 47.5%;
   height: 77px;
   border-radius: 39px;
@@ -56,34 +56,35 @@
   width: 42px;
   height: 42px;
 }
-.three-steps-container {
-  padding: 55px 0 0 0;
-}
-.three-steps-one::before {
+.steps::before {
   background-image: url(../img/footballer_497.png);
   background-position: -160px 90px;
 }
-.three-steps-two::before {
+.steps-2::before {
   background-image: url(../img/basketballer_436.png);
   background-position: 100% 37px;
 }
-.step {
-  padding: 30px 33px 30px 291px;
+.steps-item-container {
+  display: flex;
+}
+.steps-item-container-1 {
+  justify-content: flex-end;
+}
+.item {
+  width: 64.5%;
+  padding-right: 33px;
+  padding-left: 33px;
 }
 .steps-main-title {
-  padding: 0 33px 0px 291px;
+  padding-top: 58px;
+  padding-bottom: 0;
+}
+.steps-main-title-h3 {
   font-size: 80px;
 }
-.step-left {
-  padding: 29px 320px 37px 33px;
-}
-.steps-main-title-two {
-  padding: 0 33px 0 33px;
-}
-.steps-title {
-  font-size: 32px;
-  padding-left: 5px;
-  letter-spacing: 0.05em;
+.item-numbered {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .steps-num {
   top: 34px;
@@ -95,8 +96,12 @@
   top: 24px;
   left: 1px;
 }
+.steps-title {
+  font-size: 32px;
+  letter-spacing: 0.05em;
+}
 .steps-text {
-  line-height: 26px;
+  line-height: 27px;
   letter-spacing: 0.05em;
 }
 .use-content {
@@ -127,6 +132,7 @@
 }
 .footer {
   padding: 317px 0 20px 0;
+  background-image: url(../img/game_1280.jpg);
 }
 .footer-title::before {
   top: -191px;
