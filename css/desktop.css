@@ -148,3 +148,34 @@
 .logo-footer {
   padding-top: 263px;
 }
+@media (max-width: 1366px) {
+  .welcome-rows {
+    min-width: 100%;
+    max-width: 100%;
+    text-align: center;
+  }
+  .welcome-row {
+    padding: 0;
+    font-size: 60px;
+    letter-spacing: 4.3px;
+  }
+  .welcome-row-two {
+    width: 100%;
+  }
+  .use-content {
+    padding-top: 20px;
+    padding-bottom: 0;
+  }
+  .use-title {
+    padding: 0 0 0 20px;
+  }
+  .use-text {
+    padding-top: 80px;
+    padding-right: 100px;
+    padding-left: 120px;
+    padding-bottom: 0;
+  }
+  .item-2 {
+    margin-left: 40px;
+  }
+}
