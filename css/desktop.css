@@ -150,9 +150,7 @@
 }
 @media (max-width: 1366px) {
   .welcome-rows {
-    min-width: 100%;
-    max-width: 100%;
-    text-align: center;
+    min-width: auto;
   }
   .welcome-row {
     padding: 0;
@@ -160,7 +158,7 @@
     letter-spacing: 4.3px;
   }
   .welcome-row-two {
-    width: 100%;
+    width: 756px;
   }
   .use-content {
     padding-top: 20px;
@@ -174,8 +172,57 @@
     padding-right: 100px;
     padding-left: 120px;
     padding-bottom: 0;
+    
   }
   .item-2 {
     margin-left: 40px;
+  }
+}
+@media (max-width: 1270px) {
+  .use-title {
+    padding: 0;
+    font-size: 60px;
+    text-align: center;
+  }
+}
+@media (max-width: 1919px) {
+  .header {
+    padding: 0;
+  }
+  .header-content {
+    height: 100vh;
+    padding: 20px 0 60px 0;
+    justify-content: space-between;
+  }
+  .footer-content {
+    height: 100vh;
+    padding: 150px 0 20px 0;
+    justify-content: space-between;
+  }
+  .welcome-rows {
+    padding-top: 0;
+  }
+  .welcome-buttons {
+    margin-top: 0;
+  }
+  .steps::before {
+    background-position: right 870px top 30px;
+  }
+  .steps-2::before {
+    background-position: 550px 25px;
+  }
+  .footer {
+    padding: 0;
+  }
+  .footer-title::before {
+    margin-left: -66px;
+    top: 30px;
+  }
+  .download {
+    margin-left: 0;
+    margin-top: 35px;
+  }
+  .logo-footer {
+    padding: 0;
   }
 }
