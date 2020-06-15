@@ -148,43 +148,6 @@
 .logo-footer {
   padding-top: 263px;
 }
-@media (max-width: 1366px) {
-  .welcome-rows {
-    min-width: auto;
-  }
-  .welcome-row {
-    padding: 0;
-    font-size: 60px;
-    letter-spacing: 4.3px;
-  }
-  .welcome-row-two {
-    width: 756px;
-  }
-  .use-content {
-    padding-top: 20px;
-    padding-bottom: 0;
-  }
-  .use-title {
-    padding: 0 0 0 20px;
-  }
-  .use-text {
-    padding-top: 80px;
-    padding-right: 100px;
-    padding-left: 120px;
-    padding-bottom: 0;
-    
-  }
-  .item-2 {
-    margin-left: 40px;
-  }
-}
-@media (max-width: 1270px) {
-  .use-title {
-    padding: 0;
-    font-size: 60px;
-    text-align: center;
-  }
-}
 @media (max-width: 1919px) {
   .header {
     padding: 0;
@@ -226,3 +189,88 @@
     padding: 0;
   }
 }
+@media (max-width: 1550px) {
+  .use-content {
+    padding-top: 0;
+    padding-right: 70px;
+    padding-bottom: 0;
+  }
+  .use-title {
+    font-size: 65px;
+  }
+  .use-num {
+    top: 140px;
+  }
+}
+@media (max-width: 1366px) {
+  .welcome-rows {
+    min-width: auto;
+  }
+  .welcome-row {
+    padding: 0;
+    font-size: 60px;
+    letter-spacing: 4.3px;
+  }
+  .welcome-row-two {
+    width: 756px;
+  }
+  .use-num {
+    top: 80px;
+    padding: 35px 45px 48px 45px;
+    font-size: 24px;
+  }
+  .use-num-odd {
+    left: -60px;
+  }
+  .use-num-even {
+    right: -60px;
+    left: auto;
+  }
+  .use-num::before {
+    top: 70px;
+    left: 45px;
+    width: 27px;
+    height: 5px;
+    border-radius: 3px;
+  }
+  .use-content {
+    padding-top: 90px;
+    padding-bottom: 0;
+  }
+  .use-title {
+    font-size: 65px;
+    padding: 0 0 0 90px;
+  }
+  .use-text {
+    padding-top: 60px;
+    padding-right: 90px;
+    padding-left: 95px;
+    padding-bottom: 0;
+    
+  }
+  .item-2 {
+    margin-left: 40px;
+  }
+}
+@media (max-width: 1270px) {
+  .use-content {
+    padding-top: 100px;
+    padding-bottom: 0;
+  }
+  .use-title {
+    font-size: 55px;
+  }
+}
+@media (max-width: 1150px) {
+  .use-title {
+    font-size: 50px;
+    padding-bottom: 0;
+  }
+  
+}
+@media (max-width: 1050px) {
+  .use-title {
+    font-size: 45px;
+  }
+}
+

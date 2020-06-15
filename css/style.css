@@ -297,6 +297,8 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 58px;
+  -webkit-box-shadow: 5px 5px 15px 0px #0000008f; 
+  box-shadow: 5px 5px 15px 0px #0000008f;
 }
 .download {
   font-weight: bold;
