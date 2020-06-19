@@ -257,7 +257,7 @@ body {
   letter-spacing: 0.05em;
 }
 .footer {
-  padding: 220px 20px 20px 20px;
+  padding: 100px 20px 20px 20px;
   min-height: 100vh;
   background-image: url(../img/game_767.jpg);
   background-position: center center;
@@ -282,23 +282,26 @@ body {
   z-index: 2;
 }
 .footer-title {
+  margin: 0 auto;
   text-align: center;
 }
-.footer-title::before {
-  content: "";
-  position: absolute;
-  top: -130px;
-  margin-left: -36px;
+.footer-main-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
   width: 72px;
   height: 74px;
   border-radius: 13px;
-  background-color: #7151ce;
-  background-image: url(../svg/surface_logo.svg);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: 58px;
-  -webkit-box-shadow: 5px 5px 15px 0px #0000008f; 
+  background-image: linear-gradient(#7756d7, #50379b);
+  -webkit-box-shadow: 5px 5px 15px 0px #0000008f;
   box-shadow: 5px 5px 15px 0px #0000008f;
+}
+.footer-main-logo-container {
+  width: 58px;
+}
+.footer-title-text {
+  padding-top: 47px;
 }
 .download {
   font-weight: bold;
