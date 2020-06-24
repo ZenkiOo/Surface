@@ -118,11 +118,11 @@ body {
   margin-top: 15px;
 }
 .steps,
-.steps-2 {
+.steps-players {
   position: relative;
 }
 .steps::before,
-.steps-2::before {
+.steps-players::before {
   content: "";
   position: absolute;
   top: 0;
@@ -136,7 +136,7 @@ body {
   background-image: url(../img/footballer_192.png);
   background-position: center 80px;
 }
-.steps-2::before {
+.steps-playmanual::before {
   background-image: url(../img/basketballer_302.png);
   background-position: center 80px;
 }
@@ -197,35 +197,35 @@ body {
 .steps-text-white {
   color: #c1c1c1;
 }
-.steps-item-2 {
+.steps-item-collaboration {
   background-color: #f6f4fa;
 }
-.steps-item-3 {
+.steps-item-purple {
   background-color: #5e42b0;
 }
-.steps-item-3-2 {
+.steps-item-dark-blue {
   background-color: #090c35;
 }
-.use-block {
+.manual-block {
   display: flex;
   flex-direction: column;
 }
-.use-img-current {
+.manual-img-current {
   display: block;
   width: 100%;
   height: auto;
 }
-.use-img-current img {
+.manual-img-current img {
   display: block;
   width: 100%;
   height: auto;
 }
-.use-content {
+.manual-content {
   position: relative;
   padding-top: 25px;
   padding-bottom: 80px;
 }
-.use-num {
+.manual-num {
   position: absolute;
   top: -59px;
   left: 20px;
@@ -235,7 +235,7 @@ body {
   color: #fff;
   background-color: #5e42b0;
 }
-.use-num::before {
+.manual-num::before {
   content: "";
   position: absolute;
   top: 40px;
@@ -244,14 +244,14 @@ body {
   border-radius: 2px;
   background-color: #8f7bc8;
 }
-.use-title {
+.manual-title {
   padding: 0 0 11px 20px;
   font-weight: bold;
   font-size: 28px;
   letter-spacing: 0.05em;
   color: #e7e7e7;
 }
-.use-text {
+.manual-text {
   padding: 0 20px 0 20px;
   line-height: 20px;
   letter-spacing: 0.05em;
