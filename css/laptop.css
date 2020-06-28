@@ -13,7 +13,7 @@
   font-size: 64px;
   letter-spacing: 3px;
 }
-.welcome-row-two {
+.welcome-sub-row {
   margin-top: 0;
   width: 517px;
   line-height: 74px;
@@ -160,4 +160,9 @@
 }
 .logo-footer {
   padding-top: 55px;
+}
+@media (max-width: 725px) {
+  .steps-players::before {
+    background-position: 300px 37px;
+  }
 }

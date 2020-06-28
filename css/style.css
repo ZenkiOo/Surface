@@ -63,7 +63,7 @@ body {
   font-size: 28px;
   letter-spacing: 1px;
 }
-.welcome-row-two {
+.welcome-sub-row {
   margin-top: 15px;
   width: 234px;
   line-height: 34px;
@@ -136,7 +136,7 @@ body {
   background-image: url(../img/footballer_192.png);
   background-position: center 80px;
 }
-.steps-playmanual::before {
+.steps-players::before {
   background-image: url(../img/basketballer_302.png);
   background-position: center 80px;
 }
